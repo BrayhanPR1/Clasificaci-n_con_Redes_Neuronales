@@ -6,7 +6,7 @@ Este proyecto implementa un sistema de clasificación automática de objetos ast
 ## Estructura de Archivos
 - `training_set.csv.zip`: Archivo comprimido con las curvas de luz de entrenamiento (light curves), separado por `object_id` y observaciones en varios filtros.
 - `training_set_metadata.csv`: Metadatos asociados a cada `object_id`, incluyendo coordenadas, redshift, extinción, distancia, y la clase objetivo (`target`).
-- Notebook: `ultimoproyectodefinitivo_comentado.ipynb`: Contiene el código comentado para la extracción de características, entrenamiento y evaluación del modelo, y la generación de la submission para Kaggle.
+- Notebook: `Modelo.ipynb`: Contiene el código comentado para la extracción de características, entrenamiento y evaluación del modelo, y la generación de la submission para Kaggle.
 - `README.md`: Este archivo con explicación del funcionamiento, librerías necesarias y fundamentos teóricos.
 - `model.joblib` (opcional): Archivo de modelo serializado tras el entrenamiento, para carga y uso en predicciones posteriores.
 - `submission.csv`: Formato de salida con probabilidades para cada clase por objeto, listo para envío a la competición.
